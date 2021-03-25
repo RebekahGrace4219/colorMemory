@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1 >Colored Memories</h1>
+
+    <h2>
+      Welcome! Would you like to test your memory?
+    </h2>
+    <p id="insert"></p>
+
+    
+    <!-- Adapted from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color -->
+    <!-- Allow the user to choose their colors: especially helpful for the colorblind! -->
+    <p>
+       Choose the colors for your boxes:
+    </p> 
+    <div>
+      <input type="color" id="box1" name="box1"
+           value="#90EE90">
+      <label for="box2"> Box 1 </label>
+    
+      <input type="color" id="box2" name="box2"
+           value="#ADD8E6">
+      <label for="box2"> Box 2 </label>
+    
+      <input type="color" id="box3" name="box3"
+           value="#FFC0CB">
+      <label for="box3"> Box 3 </label>
+    
+      <input type="color" id="box4" name="box4"
+           value="#FFFFE0">
+      <label for="box4"> Box 4 </label>
+      
+      <input type="color" id="box5" name="box5"
+           value="#FFFFFF">
+      <label for="box5"> Box 5 </label>
+    </div>
+    <br>
+      
+    <button id="startButton" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopButton" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+
+    <br>
+    
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTouch(1)"
+        onmouseup="stopTouch(1)"
+      ></button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTouch(2)"
+        onmouseup="stopTouch(2)"
+      ></button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTouch(3)"
+        onmouseup="stopTouch(3)"
+      ></button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTouch(4)"
+        onmouseup="stopTouch(4)"
+      ></button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTouch(5)"
+        onmouseup="stopTouch(5)"
+      ></button>
+    </div>
+  </body>
+</html>
