@@ -51,7 +51,8 @@ link: https://drive.google.com/file/d/1iYgZOJhT5EUQV81OVpfGKcdoCpIhJlLK/view?usp
   https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-I was not familiar with CSS and HTML coming into this project. I had, however, used Javascript in a limited capacity.  
+
+  I was not familiar with CSS and HTML coming into this project. I had, however, used Javascript in a limited capacity.  
   I had no idea what the various options were, though I knew I wanted to give the user the ability to change the colors themselves. 
   I had heard previously that color based games were very difficult for people with color blindness.  I suppose the tones would prevent some of 
   that issue, but I still like to be inclusive.
@@ -66,6 +67,7 @@ I was not familiar with CSS and HTML coming into this project. I had, however, u
   lot of testing and a lot of googling.
   
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
   I liked working with CSS and HTML. I saw the value in the ability to determine one style sheet and to not rewrite everything. However, as I went on, 
   I was diverting more and more from the CSS to the JS.  I was wondering, do people usually manage to fit things that change during the program into the 
   CSS?  Can the CSS hold changing variables?  I was not really sure, and I was running out of time to solve it (I only found the job posting one day 
