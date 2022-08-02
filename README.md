@@ -1,6 +1,6 @@
 W# Pre-work - *Memory Game*
 
-**Colored Memories** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+**Colored Memories** is a Light & Sound Memory game to apply for CodePath's SITE Program. It was made in accordance with certain rules.
 
 Submitted by: **Rebekah Grace**
 
